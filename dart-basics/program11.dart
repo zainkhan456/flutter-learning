@@ -1,11 +1,12 @@
-//Even or Odd number
+// Factorial of a number using increament operator
 import 'dart:io';
-void main(){
-  print("enter a number: ");
+
+void main() {
+  print("please enter a number to find it's factorial: ");
   int num = int.parse(stdin.readLineSync()!);
-  if(num % 2 == 0){
-    print("the number you entered is an even number ");
+  int fact = 1;
+  for (int i = 1; i <= num; i++) {
+    fact = fact * i;
   }
-  else
-  print("the number you entered is an odd number");
+  print("the factorial of $num is $fact");
 }

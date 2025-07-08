@@ -1,26 +1,15 @@
-// iterating elements in list using foreach built in function
+//simple if else program
 import 'dart:io';
-
-void main() {
-  List<int> numbers = [5, 6, 8];
-  //here no warning will be shown bcz we directly print the list
-  numbers.forEach(print);
-  // or
-  // function literal = funciton having no name.
-  //here warning will be shown bcz function literals can't be pass to foreach
-  numbers.forEach((number) => print(number));
-  // or
-  //here also warning
-  numbers.forEach((number) {
-    print(number);
-  });
-  //here also warning
-  //to print the list in one line
-  numbers.forEach((number) {
-    stdout.write('$number ');
-  });
-  //to print the list in one line i-e it join the list elements
-  print("");
-  print(numbers.join(" "));
-  //these warnings are solved in the next program (task_29).THANKS.
+void main(){
+  int num;
+  print("enter a number: ");
+  num = int.parse(stdin.readLineSync()!);
+  if(num > 0){
+    print("the number is greater than 0");
+  }
+  else if(num < 0){
+    print("the number is less to 0");
+  }
+  else
+  print("the number is equal to 0");
 }

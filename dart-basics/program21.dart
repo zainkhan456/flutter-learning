@@ -1,11 +1,18 @@
-//power of a number raised to power 2
-import 'dart:io';
+//Lists in dart
 void main(){
-  int result= 1;
-  print("enter a number ");
-  int n = int.parse(stdin.readLineSync()!);
-  for(int i = 1;i <= 2;i++){
-    result = result * n; 
-  }
-  print('$n raised to power 2 is $result');
+  //List of integers
+  List<int> num = [4,3,9];
+  print(num);
+  print(num[0]);
+  //List of Strings
+  List<String> name = ['zain','khan'];
+  print('$name');
+  print(name[0]);
+  ////////
+  num.add(9);
+  print(num);
+  num.addAll([1,2,4]);
+  print(num);
+  name.add("ihtesham");
+  print(name);
 }

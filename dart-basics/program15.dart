@@ -1,23 +1,13 @@
+//power of a number raised to power n
 import 'dart:io';
 void main(){
-  print("Enter an alphabit");
-  String? ch = stdin.readLineSync();
-  if( ch == 'a'||
-      ch == 'b' ||
-      ch == 'c' ||
-      ch == 'd' ||
-      ch == 'e' ||
-      ch == 'i' ||
-      ch == 'o' ||
-      ch == 'u' ||
-      ch == 'A' ||
-      ch == 'E' ||
-      ch == 'I' ||
-      ch == 'O' ||
-      ch == 'U' ){
-        print("The alphabit is a vowel");
+  int result = 1;
+  print("enter the base value ");
+  int base = int.parse(stdin.readLineSync()!);
+  print("enter the power value");
+  int power = int.parse(stdin.readLineSync()!);
+  for(int i = 1;i <= power;i++){
+    result = result * base;
   }
-  else{
-    print("The alphabit is cosonant");
-  }
+  print("$base to the power $power is $result");
 }

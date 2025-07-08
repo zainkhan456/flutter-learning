@@ -1,13 +1,10 @@
-// smaller number between two numbers using ternary operator
-import 'dart:io';
+//swapping of two numbers without using third variable
+void main(){
+  int a = 8,b = 9;
+  print("value of a and b before swapping $a $b");
+  a = a + b;
+  b = a - b;
+  a = a - b;
+  print("value of a and b after swapping $a $b");
 
-void main() {
-  print("enter two numbers: ");
-  print("enter a: ");
-  int a = int.parse(stdin.readLineSync()!);
-  print("enter b: ");
-  int b = int.parse(stdin.readLineSync()!);
-  a < b
-      ? print("a = $a is smaller than b = $b")
-      : print('b = $b is smaller than a = $a');
 }

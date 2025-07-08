@@ -1,7 +1,10 @@
-// greater number between two numbers
-void main() {
-  int a = 9;
-  int b = 4;
-  int max = a > b ? a : b;
-  print("the maximum number between 9 and 4 is $max");
+void main(){
+  //swapping of two numbers by using third variable
+  int a = 8,b = 9;
+  int temp;
+  print("value of a and b before swapping: $a $b");
+  temp = a;
+  a = b;
+  b = temp;
+  print("value of a and b after swapping: $a $b");
 }

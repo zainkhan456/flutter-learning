@@ -1,19 +1,13 @@
-//for loop
-//Printing numbers from 1 to 10 using for loop
+//take n numbers from user and add them
+import 'dart:io';
 void main(){
-  for(int i = 0;i < 10;i++){
-    print(i);
+  int sum = 0;
+  print('enter how much numbers do you want to add :');
+  int count = int.parse(stdin.readLineSync()!);
+  print('please enter the numbers: ');
+  for(int i = 1;i <= count;i++){
+    int n = int.parse(stdin.readLineSync()!);
+    sum = sum + n;
   }
-  print("printing even numbers from 0 to 10");
-  for(int i = 0;i <= 10;i++){
-    if(i % 2 == 0)
-      print(i);
-  }
-  print("printing odd numbers from 1 to 10");
-  for(int i = 1;i <= 10;i++){
-    if(i % 2 != 0){
-      print(i);
-    }
-  }
-  
+  print(sum);
 }

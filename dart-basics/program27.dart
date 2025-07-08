@@ -1,7 +1,7 @@
-// Read random numbers from computer from 1 to the number
-import 'dart:math';
-
-void main() {
-  int number = Random().nextInt(100);
-  print("random number is: $number");
+//Read integer value from the user
+import 'dart:io';
+void main(){
+  print("enter a number: ");
+  int num = int.parse(stdin.readLineSync()!);
+  print("the number you entered is: $num");
 }

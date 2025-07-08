@@ -1,17 +1,28 @@
+//Table of a positive number 
 import 'dart:io';
-void main(){
-  print("enter a number: ");
+
+void main() {
+  print("please enter a positive number: ");
   int num = int.parse(stdin.readLineSync()!);
-  if(num > 0){
-    if(num > 0 && num < 10)
-    print("the number is greater than 0 and less than 10");
-    else if(num > 10 && num < 100)
-      print("the number is greater than 10 and less than 100");
-    else 
-    print("the number is greater than 100");
+  print("the table of the $num is: ");
+  for (int i = 1; i <= 10; i++) {
+    print("$num * $i = ${num * i}");
   }
-  else if(num < 0)
-  print("the number is less than 0");
-  else 
-  print("the number is equal to 0");
+  //while loop
+  //print numbers from 1 to 5 
+  /*  int i = 1;
+      while(i <= 5){
+        print(i);
+        i++;
+      } 
+  */
+  //dowhile loop
+  //printing numbers from 1 to 5
+   /* int i = 1;
+    do{
+      print(i);
+      i++;
+    }while(i <= 5);
+  */
+  
 }
