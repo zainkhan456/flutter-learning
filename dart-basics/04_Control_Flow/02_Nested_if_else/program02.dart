@@ -1,3 +1,4 @@
+//Find the largest among three numbers using nested if
 import 'dart:io';
 void main(){
   int a,b,c;
@@ -6,7 +7,7 @@ void main(){
   b = int.parse(stdin.readLineSync()!);
   c = int.parse(stdin.readLineSync()!);
   if(a == b && b == c){
-    print("all numbers are equal");
+    print("All numbers are equal");
   }
   else{
     int largest;
@@ -18,7 +19,7 @@ void main(){
     }
     else
       largest = c;
-    print("the largest number is $largest");
+    print("The largest number is $largest");
 
   }
 }

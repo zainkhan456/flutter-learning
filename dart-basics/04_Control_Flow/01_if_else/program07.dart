@@ -1,3 +1,4 @@
+//Show user whether he enter a vowel or consonant alphabit.
 import 'dart:io';
 void main(){
   print("Enter an alphabit");

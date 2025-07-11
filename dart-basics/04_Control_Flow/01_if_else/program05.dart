@@ -1,4 +1,4 @@
-//Give treat to your friend according to your friend
+//Give treat to your friend according to your pocket money
 import 'dart:io';
 void main(){
   int pmoney;
@@ -16,5 +16,5 @@ void main(){
   else if(pmoney > 2000 && pmoney < 5000)
   print("bring a bride for yourself");
   else 
-  print("get up from the sleep and go to the class");
+  print("Get up from the sleep and go to the class");
 }
