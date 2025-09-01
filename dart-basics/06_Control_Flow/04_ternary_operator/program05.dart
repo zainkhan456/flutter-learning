@@ -1,4 +1,4 @@
-//
+//Student grades based on their marks
 import 'dart:io';
 void main(){
   print("Enter your marks: ");
@@ -13,6 +13,11 @@ void main(){
   ? 'you have fot F grade,you are fail'
   : 'wrong input';
   print(grade);
-
-
 }
+//Extra
+//  Read random numbers from computer from 1 to the number
+// import 'dart:math';
+// void main() {
+//   int number = Random().nextInt(100);
+//   print("random number is: $number");
+// }

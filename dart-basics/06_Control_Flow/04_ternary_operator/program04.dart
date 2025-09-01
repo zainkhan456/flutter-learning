@@ -1,4 +1,4 @@
-//Voting eligibility
+//Even or odd number
 import 'dart:io';
 void main(){
   print("Enter a number: ");

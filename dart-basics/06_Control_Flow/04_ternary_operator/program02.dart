@@ -1,6 +1,5 @@
 // smaller number between two numbers using ternary operator
 import 'dart:io';
-
 void main() {
   print("enter two numbers: ");
   print("enter a: ");
