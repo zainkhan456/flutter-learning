@@ -51,7 +51,7 @@ App icons need to be different for Android and iOS because of device size variat
 
 1. Clone this project:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/zainsafi/flutter-playground.git
    ```
 
 2. Navigate to the project folder:
