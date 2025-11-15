@@ -3,7 +3,7 @@
 // Columns, Rows, Containers, SizedBox
 
 import 'package:flutter/material.dart';
-import 'package:project_03/ProfileView.dart';
+import 'package:project_03/profile_view.dart';
 
 void main(){
   runApp(const MyApp());
