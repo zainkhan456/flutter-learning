@@ -1,3 +1,16 @@
+/*
+  In this project, we will build a Beautiful Login UI screen with email and password 
+  input fields using Flutter layout widgets.
+  Concepts covered:
+  - TextFormField
+  - InputDecoration
+  - Prefix/Suffix Icons
+  - Container styling
+  - Row, Column
+  - Padding, SizedBox
+  - SafeArea
+*/
+
 import 'package:flutter/material.dart';
 
 void main() {
