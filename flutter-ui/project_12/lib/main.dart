@@ -1,3 +1,15 @@
+/*
+  In this project, we will build a simple Lottery App that generates a random 
+  number and checks if the user wins or loses.
+
+  Concepts covered:
+  - Random number generation
+  - setState()
+  - Ternary operator
+  - Conditional UI
+  - FloatingActionButton
+*/
+
 import 'dart:math';
 import 'package:flutter/material.dart';
 
