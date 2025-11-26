@@ -1,0 +1,99 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          backgroundColor: Colors.purpleAccent.shade100,
+          title: RichText(
+            text: TextSpan(
+              // text: "Stack,",
+              // style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+              //   fontSize: 20,
+              //   fontWeight: FontWeight.bold,
+              //   color: Colors.blue,
+              // ),//The properties of this will be apply on it's childrens as well so to show the text differently we have not used the properties of the stack but instead used the properties for each inside.
+              children: [
+                TextSpan(
+                  text: "Stack,",
+                  style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black,
+                  ),
+                ),
+                TextSpan(
+                  text: "Divider",
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 25,
+                    color: Colors.white,
+                  ),
+                ),
+                TextSpan(
+                  text: " And ",
+                  style: TextStyle(color: Colors.black),
+                ),
+                TextSpan(
+                  text: "RichText",
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 25,
+                    color: Colors.yellow.shade100,
+                    decoration: TextDecoration.underline,
+                    decorationColor: Colors.black,
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+        body: Column(
+          children: [
+            Stack(
+              alignment: Alignment.center,
+              children: [
+                Container(
+                  height: 350,
+                  width: double.infinity,
+                  color: Colors.blue,
+                ),
+                Positioned(
+                  top: 0,
+                  left: 10,
+                  child: Text(
+                    "Box 1: InnerMost Box",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                ),
+                Container(
+                  height: 280,
+                  width: 280,
+                  color: Colors.green,
+                  padding: EdgeInsets.only(left: 10),
+                  child: Text(
+                    "Box 2: Middle Box",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                ),
+                Container(height: 200, width: 200, color: Colors.red),
+                Text(
+                  "Box 3: OuterMost Box ",
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
