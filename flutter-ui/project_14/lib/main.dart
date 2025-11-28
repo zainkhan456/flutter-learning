@@ -1,3 +1,15 @@
+/*
+  In this project, we will explore Stack layout, Divider styling, and RichText 
+  by creating layered UI elements and custom styled text.
+
+  Concepts covered:
+  - Stack & Positioned
+  - RichText & TextSpan
+  - Divider & VerticalDivider
+  - Widget layering
+  - Alignment inside stack
+*/
+
 import 'package:flutter/material.dart';
 
 void main() {
