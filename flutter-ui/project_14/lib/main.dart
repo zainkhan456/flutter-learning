@@ -32,7 +32,9 @@ class MyApp extends StatelessWidget {
               //   fontSize: 20,
               //   fontWeight: FontWeight.bold,
               //   color: Colors.blue,
-              // ),//The properties of this will be apply on it's childrens as well so to show the text differently we have not used the properties of the stack but instead used the properties for each inside.
+              // ),
+              // Each TextSpan can have its own style.
+              // Using separate styles here instead of inheriting from parent for better control.
               children: [
                 TextSpan(
                   text: "Stack,",
