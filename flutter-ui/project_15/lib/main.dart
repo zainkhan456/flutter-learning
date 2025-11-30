@@ -172,6 +172,53 @@ class MyApp extends StatelessWidget {
                   // },
                 ),
               ),
+
+              //icons
+              SizedBox(height: 30),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                spacing: 20,
+                children: [
+                  // Custom Google-style icon
+                  // Container(
+                  //   alignment: Alignment.center,
+                  //   height: 37,
+                  //   width: 37,
+                  //   decoration: BoxDecoration(
+                  //     color: Colors.blue.shade100,
+                  //     borderRadius: BorderRadius.circular(20),
+                  //   ),
+                  
+                  // Inside the Container, we can display either:
+                  // 1. Text("G") to mimic Google's logo
+                  // 2. Or an Icon widget instead of Text for a proper icon
+                  //   child: Text(
+                  //     "G",
+                  //     style: TextStyle(
+                  //       color: Colors.green.shade800,
+                  //       fontSize: 20,
+                  //       fontWeight: FontWeight.bold,
+                  //     ),
+                  //   ),
+                  // ),
+                  Icon(
+                    FontAwesomeIcons.google,
+                    color: Colors.blueAccent,
+                    size: 30,
+                  ),
+
+                  Icon(
+                    Icons.facebook_outlined,
+                    color: Color(0xff4285F4),
+                    size: 40,
+                  ),
+                  Icon(
+                    FontAwesomeIcons.squareLinkedin,
+                    color: Color(0xff0A66C2),
+                    size: 30,
+                  ),
+                ],
+              ),
             ],
           ),
         ),
