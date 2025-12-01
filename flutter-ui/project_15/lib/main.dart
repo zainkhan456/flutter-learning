@@ -1,5 +1,15 @@
-//FormPadding and it's Decoration
-//Here i have used some properties just for understanding.
+/*
+  In this project, we will build a login form with multiple input fields 
+  and custom decorations.
+  Concepts covered:
+  - TextFormField customization (hintText, labelText, prefixIcon, suffixIcon)
+  - InputDecoration styling (enabledBorder, focusedBorder, fillColor)
+  - SingleChildScrollView with padding
+  - CircleAvatar
+  - Using icons from FontAwesomeFlutter package
+  - some properties of TextFormField are used just for understanding
+*/
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -188,7 +198,7 @@ class MyApp extends StatelessWidget {
                   //     color: Colors.blue.shade100,
                   //     borderRadius: BorderRadius.circular(20),
                   //   ),
-                  
+
                   // Inside the Container, we can display either:
                   // 1. Text("G") to mimic Google's logo
                   // 2. Or an Icon widget instead of Text for a proper icon
