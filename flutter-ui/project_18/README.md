@@ -1,16 +1,97 @@
-# project_18
+# Flutter Calculator App
 
-A new Flutter project.
+A fully functional calculator app built using Flutter, featuring a clean UI, reusable components, and real-time mathematical expression evaluation.
+
+---
+
+## Features
+
+- Perform basic arithmetic operations (+, −, ×, ÷, %)
+- Real-time input and result updates
+- Expression evaluation using `math_expressions` package
+- Reusable custom button component
+- Clean and responsive UI design
+- Clear (AC) and delete (DEL) functionality
+
+---
+
+## Concepts Covered
+
+- State management using `setState()`
+- Dynamic user input handling
+- Custom reusable widgets (`MyButton`)
+- Layout structuring with `Row`, `Column`, and `Expanded`
+- String manipulation (`replaceAll`, `substring`)
+- Expression parsing and evaluation
+- Using constants for clean styling
+
+---
+
+## 🛠️ Tech Stack
+
+- **Flutter**
+- **Dart**
+- `math_expressions` package
+
+---
+
+## 📂 Project Structure
+
+```
+lib/
+│── main.dart
+│── home_view.dart
+│── components/
+│   └── my_button.dart
+│── constants.dart
+```
+
+---
+
+## How It Works
+
+- User taps buttons → input is stored in a variable
+- Input string is processed (e.g., `x` → `*`)
+- Expression is parsed using `math_expressions`
+- Result is evaluated and displayed instantly
+
+---
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repository:
 
-A few resources to get you started if this is your first Flutter project:
+```
+git clone https://github.com/yourusername/project_18.git
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. Navigate to the project:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+cd project_18
+```
+
+3. Install dependencies:
+
+```
+flutter pub get
+```
+
+4. Run the app:
+
+```
+flutter run
+```
+
+---
+
+## Author
+
+**Zain Ul Islam**
+GitHub: https://github.com/zainsafi
+
+---
+
+## Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
