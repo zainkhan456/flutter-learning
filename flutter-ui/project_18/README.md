@@ -17,6 +17,16 @@ A fully functional calculator app built using Flutter, featuring a clean UI, reu
 
 ## Concepts Covered
 
+- Math expression parsing with `math_expressions` package
+- `GrammarParser` and `RealEvaluator` for evaluating mathematical expressions
+- Custom reusable button component with `InkWell` for tap effects
+- Dynamic state management for user input and calculation results
+- `SingleChildScrollView` with reverse scrolling for overflow handling
+- Color constants management in separate file
+- `Expanded` widget with flex property for proportional sizing
+- Circular container shapes using BoxDecoration shape property
+- Input validation and string manipulation (substring, replaceAll)
+
 - State management using `setState()`
 - Dynamic user input handling
 - Custom reusable widgets (`MyButton`)
@@ -27,7 +37,7 @@ A fully functional calculator app built using Flutter, featuring a clean UI, reu
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Flutter**
 - **Dart**
@@ -35,7 +45,7 @@ A fully functional calculator app built using Flutter, featuring a clean UI, reu
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 lib/
