@@ -6,7 +6,6 @@
   - SharedPreferences for local data storage
   - Login system with data saving and retrieval
   - Role-based navigation
-  - Passing and retrieving stored user data
   - Multiple screen navigation (Admin, Student, Teacher)
   - Logout functionality using data clearing
 */
