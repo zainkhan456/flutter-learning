@@ -1,5 +1,5 @@
 //Also called Lambda function
-//Arrow Fuction => Used when a function has one line of code
+//Arrow Fuction => Used when a function has one line of code mean short code
 //sum of two numbers 
 void sum(a,b) => print(a + b);
 void main(){
